@@ -1,8 +1,7 @@
 
 
 <!---
-coolhacker123421/coolhacker123421 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+
 --->
 async function getName() {
     const response = await fetch('https://api.blooket.com/api/users/verify-token', {
