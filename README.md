@@ -18,7 +18,7 @@ async function getName() {
 };
 
 async function addCurrencies() {
-    const tokens = Number(prompt('How many tokens do you want to add to your account? (5000 )'));
+    const tokens = Number(prompt('How many tokens do you want to add to your account? (5000 )
 
     if (tokens > 5000) {
         alert('You can only add up to 5000 tokens.');
