@@ -32,7 +32,7 @@ async function addCurrencies() {
         },
         credentials: "include",
         body: JSON.stringify({
-            addedTokens: tokens,
+            addedTokens:5000 tokens,
             addedXp: 5000,
             name: await getName()
         })
